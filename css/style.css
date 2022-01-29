@@ -1,0 +1,28 @@
+.menu {
+    font-family: monospace;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.li {
+    display: inline;
+}
+
+a:link {
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+body {
+    font-family: monospace;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+footer {
+    text-align: center;
+}
