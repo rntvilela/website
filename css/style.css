@@ -1,22 +1,41 @@
 .menu {
-    font-family: monospace;
     font-size: 20px;
-    border-bottom: 1px solid black;
     text-align: center;
 }
 
 .li {
-    display: inline;
+    display: inline;    
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 a:link {
     background-color: transparent; 
     text-decoration: none;
+    color: #0063bc;
+}
+a:visited {
+    background-color: transparent; 
+    text-decoration: none;
+    color: #0063bc;
+}
+a:hover {
+    background-color: transparent; 
+    text-decoration: none;
+    color: #00bc00;
+}
+
+a:active {
+    background-color: transparent; 
+    text-decoration: none;
+    color: #0063bc;
 }
 
 body {
     font-family: monospace;
     font-size: 18px;
+    background: #212529;
+    color: #ffffff;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 100px;
