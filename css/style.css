@@ -1,17 +1,11 @@
 .menu {
     background: #212529;
-    position: fixed;
     font-size: 20px;
-    top: 0;
-    padding-top: 10px;
-    padding-top: 10px;
-    width: 100%;
 }
 
 .li {
-    display: inline;    
-    padding-right: 10px;
-    padding-left: 10px;
+    display: inline;
+    padding-right:10px;
 }
 
 a:link {
@@ -43,10 +37,8 @@ body {
     font-size: 18px;
     background: #212529;
     color: #ffffff;
-    padding-top: 75px;
-    padding-right: 200px;
-    padding-left: 200px;
-    padding-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 div {
