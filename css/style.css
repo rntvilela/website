@@ -1,23 +1,40 @@
 .menu {
-    background: #212529;
+    border-style: dashed;
+    border-color: #060809;
+    border-radius: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: #15181b;
     font-size: 22px;
+}
+
+.conteudo {
+    border-style: dashed;
+    border-color: #060809;
+    border-radius: 30px;
+    background: #15181b;
 }
 
 .li {
     display: inline;
-    padding-right:10px;
+    padding:0px;
+}
+
+.ul {
+    padding:0px;
 }
 
 a:link {
     background-color: transparent; 
     text-decoration: none;
-    color: #0063bc;
+    color: #0074dc;
 }
 
 a:visited {
     background-color: transparent; 
     text-decoration: none;
-    color: #0063bc;
+    color: #0074dc;
 }
 
 a:hover {
@@ -29,7 +46,7 @@ a:hover {
 a:active {
     background-color: transparent; 
     text-decoration: none;
-    color: #0063bc;
+    color: #0074dc;
 }
 
 body {
@@ -37,7 +54,8 @@ body {
     font-size: 18px;
     background: #212529;
     color: #ffffff;
-    padding-top: 10px;
+    padding: 0px;
+    margin: 0px;
     padding-right: 100px;
     padding-left: 100px;
 }
