@@ -9,13 +9,6 @@
     font-size: 22px;
 }
 
-.conteudo {
-    border-style: dashed;
-    border-color: #000000;
-    border-radius: 30px;
-    background: #111111;
-}
-
 .li {
     display: inline;
     padding:0px;
@@ -63,12 +56,19 @@ body {
 }
 
 div {
+    margin-left:100px;
+    margin-right:100px;
     /*text-align: justify;*/
 }
 
 footer {
-    padding-top: 100px;
+    border-style: dashed;
+    border-color: #000000;
+    border-radius: 30px;
+    background: #111111;
     text-align: center;
+    padding: 0px;
+    font-size: 14px;
 }
 
 .center {
