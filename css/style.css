@@ -1,24 +1,26 @@
 .menu {
     border-style: dashed;
-    border-color: #060809;
+    border-color: #000000;
     border-radius: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    background: #15181b;
+    background: #111111;
     font-size: 22px;
 }
 
 .conteudo {
     border-style: dashed;
-    border-color: #060809;
+    border-color: #000000;
     border-radius: 30px;
-    background: #15181b;
+    background: #111111;
 }
 
 .li {
     display: inline;
     padding:0px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .ul {
@@ -52,7 +54,7 @@ a:active {
 body {
     font-family: monospace;
     font-size: 18px;
-    background: #212529;
+    background: #222222;
     color: #ffffff;
     padding: 0px;
     margin: 0px;
