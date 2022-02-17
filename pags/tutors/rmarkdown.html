@@ -10,30 +10,30 @@
 <div>
 <h2 id="r-markdown">R Markdown</h2>
 <p>R Markdown permite a utilização de R na criação de documentos com Markdown. Para sua utilização é necessário o pacote rmarkdown, que pode ser instalado da seguinte forma:</p>
-<pre class="{r}"><code>    &gt; install.packages(&#39;rmarkdown&#39;)</code></pre>
+<pre class="{r}"><code>&gt; install.packages(&#39;rmarkdown&#39;)</code></pre>
 <h3 id="criando-um-documento">Criando um Documento</h3>
 <p>A extensão de uma aquivo R Markdown é rmd. Irei criar um arquivo de demonstração utilizando o terminal e o vim como editor.</p>
-<pre><code>    $ touch example.rmd
-    $ vim example.rmd</code></pre>
+<pre><code>$ touch example.rmd
+$ vim example.rmd</code></pre>
 <p>O preâmbulo pode ser da seguinte forma:</p>
-<pre><code>    ---
-    title: Markdown com R
-    author: Renato Vilela
-    output: pdf_document
-    ---</code></pre>
+<pre><code>---
+title: Markdown com R
+ author: Renato Vilela
+output: pdf_document
+---</code></pre>
 <p>O tipo de arquivo de saída será pdf, pois foi definido no output. O padrão é html.</p>
 <p>Utilizarei o dataset diamonds, obtido na instalação do pacote ggplot2, na demostração.</p>
-<pre><code>    ## Dataset Diamonds
+<pre><code>## Dataset Diamonds
 
-    Agrupando os elementos pelo tipo de corte:
+Agrupando os elementos pelo tipo de corte:
 
-    ```{r}
-        suppressMessages(library(tidyverse))
-        ggplot(data = diamonds) + geom_bar(mapping = aes(x=cut)) 
-    ```</code></pre>
+```{r}
+    suppressMessages(library(tidyverse))
+    ggplot(data = diamonds) + geom_bar(mapping = aes(x=cut)) 
+```</code></pre>
 <h3 id="compilação">Compilação</h3>
 <p>Para gerar o arquivo de saída basta utilizar o seguinte comando:</p>
-<pre><code>    $ Rscript -e &quot;rmarkdown::render(&#39;example.rmd&#39;)&quot;</code></pre>
+<pre><code>$ Rscript -e &quot;rmarkdown::render(&#39;example.rmd&#39;)&quot;</code></pre>
 <p>E o resultado será o seguinte:</p>
 <p class="center"><img src="./example.jpg" style="width:20cm" /></p>
 <p class="center">Figura 1: R Markdown.</p>
