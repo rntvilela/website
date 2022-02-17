@@ -1,7 +1,4 @@
 .menu {
-    border-style: dashed;
-    border-color: #000000;
-    border-radius: 30px;
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -46,7 +43,7 @@ a:active {
 
 body {
     font-family: monospace;
-    font-size: 18px;
+    font-size: 16px;
     background: #222222;
     color: #ffffff;
     padding: 0px;
@@ -62,12 +59,14 @@ div {
 }
 
 footer {
-    border-style: dashed;
-    border-color: #000000;
-    border-radius: 30px;
     background: #111111;
     text-align: center;
     padding: 0px;
+    font-size: 14px;
+}
+
+pre {
+    background: #111111;
     font-size: 14px;
 }
 
