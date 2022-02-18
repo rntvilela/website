@@ -2,7 +2,7 @@
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
-    background: #111111;
+    background: #1b1b1b;
     font-size: 22px;
 }
 
@@ -42,7 +42,7 @@ a:active {
 }
 
 body {
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono Medium';
     font-size: 16px;
     background: #222222;
     color: #ffffff;
@@ -59,14 +59,14 @@ div {
 }
 
 footer {
-    background: #111111;
+    background: #1b1b1b;
     text-align: center;
     padding: 0px;
     font-size: 14px;
 }
 
 pre {
-    background: #111111;
+    background: #1b1b1b;
     font-size: 14px;
 }
 
