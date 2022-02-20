@@ -1,6 +1,6 @@
 .menu {
     padding-top: 30px;
-    border-width: 0.5px;
+    border-width: 1px;
     padding-bottom: 30px;
     border-style: solid;
     border-color: #0074dc;
@@ -46,7 +46,7 @@ a:active {
 }
 
 body {
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrains Mono', monospace;
     font-size: 16px;
     background: #222222;
     color: #ffffff;
@@ -65,8 +65,7 @@ div {
     border-style: solid;
     border-color: #0074dc;
     border-radius: 10px;
-    border-width: 0.5px;
-    /*text-align: justify;*/
+    border-width: 1px;
 }
 
 footer {
@@ -83,10 +82,6 @@ pre {
     border-color: #0074dc;
     border-radius: 10px;
     font-size: 12px;
-    border-width: 0.5px;
+    border-width: 1px;
     padding: 5px;
-}
-
-.center {
-    text-align:center;
 }
