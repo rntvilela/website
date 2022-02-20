@@ -1,16 +1,20 @@
 .menu {
     padding-top: 30px;
+    border-width: 0.5px;
     padding-bottom: 30px;
+    border-style: solid;
+    border-color: #0074dc;
+    border-radius: 10px;
     text-align: center;
-    background: #1b1b1b;
+    background: #181818;
     font-size: 22px;
 }
 
 .li {
     display: inline;
     padding:0px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .ul {
@@ -42,7 +46,7 @@ a:active {
 }
 
 body {
-    font-family: 'JetBrains Mono Medium';
+    font-family: 'JetBrains Mono';
     font-size: 16px;
     background: #222222;
     color: #ffffff;
@@ -53,21 +57,34 @@ body {
 }
 
 div {
-    margin-left:100px;
-    margin-right:100px;
+    background: #181818;
+    margin-top:50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom:50px;
+    border-style: solid;
+    border-color: #0074dc;
+    border-radius: 10px;
+    border-width: 0.5px;
     /*text-align: justify;*/
 }
 
 footer {
-    background: #1b1b1b;
+    background: #222222;
     text-align: center;
+    margin: 0px;
     padding: 0px;
     font-size: 14px;
 }
 
 pre {
-    background: #1b1b1b;
-    font-size: 14px;
+    background: #181818;
+    border-style: solid;
+    border-color: #0074dc;
+    border-radius: 10px;
+    font-size: 12px;
+    border-width: 0.5px;
+    padding: 5px;
 }
 
 .center {
