@@ -3,10 +3,10 @@
     border-width: 1px;
     padding-bottom: 30px;
     border-style: solid;
-    border-color: #0074dc;
+    border-color: #2479d0;
     border-radius: 10px;
     text-align: center;
-    background: #181818;
+    background: #0d1926;
     font-size: 22px;
 }
 
@@ -24,32 +24,32 @@
 a:link {
     background-color: transparent; 
     text-decoration: none;
-    color: #0074dc;
+    color: #2479d0;
 }
 
 a:visited {
     background-color: transparent; 
     text-decoration: none;
-    color: #0074dc;
+    color: #2479d0;
 }
 
 a:hover {
     background-color: transparent; 
     text-decoration: none;
-    color: #00bc00;
+    color: #27ae60;
 }
 
 a:active {
     background-color: transparent; 
     text-decoration: none;
-    color: #0074dc;
+    color: #2479d0;
 }
 
 body {
     font-family: 'JetBrains Mono', monospace;
     font-size: 16px;
-    background: #222222;
-    color: #ffffff;
+    background: #15212f;
+    color: #ecf0f1;
     padding: 0px;
     margin: 0px;
     padding-right: 100px;
@@ -57,19 +57,19 @@ body {
 }
 
 div {
-    background: #181818;
+    background: #0d1926;
     margin-top:50px;
     padding-right: 10px;
     padding-left: 10px;
     margin-bottom:50px;
     border-style: solid;
-    border-color: #0074dc;
+    border-color: #2479d0;
     border-radius: 10px;
     border-width: 1px;
 }
 
 footer {
-    background: #222222;
+    background: #15212f;
     text-align: center;
     margin: 0px;
     padding: 0px;
@@ -77,9 +77,9 @@ footer {
 }
 
 pre {
-    background: #181818;
+    background: #0d1926;
     border-style: solid;
-    border-color: #0074dc;
+    border-color: #2479d0;
     border-radius: 10px;
     font-size: 12px;
     border-width: 1px;
