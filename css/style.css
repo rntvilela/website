@@ -3,7 +3,7 @@
     border-width: 1px;
     padding-bottom: 30px;
     border-style: solid;
-    border-color: #2479d0;
+    border-color: #35c4c0;
     border-radius: 10px;
     text-align: center;
     background: #151515;
@@ -24,25 +24,25 @@
 a:link {
     background-color: transparent; 
     text-decoration: none;
-    color: #2479d0;
+    color: #35c4c0;
 }
 
 a:visited {
     background-color: transparent; 
     text-decoration: none;
-    color: #2479d0;
+    color: #35c4c0;
 }
 
 a:hover {
     background-color: transparent; 
     text-decoration: none;
-    color: #27ae60;
+    color: #00cd00;
 }
 
 a:active {
     background-color: transparent; 
     text-decoration: none;
-    color: #2479d0;
+    color: #35c4c0;
 }
 
 body {
@@ -63,13 +63,13 @@ div {
     padding-left: 10px;
     margin-bottom:50px;
     border-style: solid;
-    border-color: #2479d0;
+    border-color: #35c4c0;
     border-radius: 10px;
     border-width: 1px;
 }
 
 footer {
-    background: #151515;
+    background: #222222;
     text-align: center;
     margin: 0px;
     padding: 0px;
@@ -79,7 +79,7 @@ footer {
 pre {
     background: #151515;
     border-style: solid;
-    border-color: #2479d0;
+    border-color: #35c4c0;
     border-radius: 10px;
     font-size: 12px;
     border-width: 1px;
