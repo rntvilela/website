@@ -7,10 +7,10 @@
     <link rel="shortcut icon" type="image/x-icon" href="../../logo.svg"/>
 </head>
 <body>
-<h2 id="r-markdown">R Markdown</h2>
+<h3 id="r-markdown">R Markdown</h3>
 <p>R Markdown permite a utilização de R na criação de documentos com Markdown. Para sua utilização é necessário o pacote rmarkdown, que pode ser instalado da seguinte forma:</p>
 <pre class="{r}"><code>&gt; install.packages(&#39;rmarkdown&#39;)</code></pre>
-<h3 id="criando-um-documento">Criando um Documento</h3>
+<h4 id="criando-um-documento">Criando um Documento</h4>
 <p>A extensão de uma aquivo R Markdown é rmd. Irei criar um arquivo de demonstração utilizando o terminal e o vim como editor.</p>
 <pre><code>$ touch example.rmd
 $ vim example.rmd</code></pre>
@@ -30,7 +30,7 @@ Agrupando os elementos pelo tipo de corte:
     suppressMessages(library(tidyverse))
     ggplot(data = diamonds) + geom_bar(mapping = aes(x=cut)) 
 ```</code></pre>
-<h3 id="compilação">Compilação</h3>
+<h4 id="compilação">Compilação</h4>
 <p>Para gerar o arquivo de saída basta utilizar o seguinte comando:</p>
 <pre><code>$ Rscript -e &quot;rmarkdown::render(&#39;example.rmd&#39;)&quot;</code></pre>
 <p>E o resultado será o seguinte:</p>
