@@ -1,10 +1,10 @@
 .menu {
-    padding-top: 5vh;
-    border-width: 1px;
-    padding-bottom: 5vh;
+    padding-top: 3vh;
+    border-width: 2px;
+    padding-bottom: 3vh;
     border-style: solid;
     border-color: #0073c3;
-    border-radius: 10px;
+    border-radius: 15px;
     text-align: center;
     background: #111111;
     font-size: 22px;
@@ -58,14 +58,12 @@ body {
 
 div {
     background: #111111;
-    margin-top:3vw;
     padding-right: 1vw;
     padding-left: 1vw;
-    margin-bottom:3vw;
     border-style: solid;
     border-color: #0073c3;
-    border-radius: 10px;
-    border-width: 1px;
+    border-radius: 15px;
+    border-width: 2px;
 }
 
 footer {
@@ -80,8 +78,14 @@ pre {
     background: #111111;
     border-style: solid;
     border-color: #0073c3;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 12px;
-    border-width: 1px;
+    border-width: 2px;
     padding: 5px;
 }
+
+br {
+    margin-top: 5vh;
+}
+
+
