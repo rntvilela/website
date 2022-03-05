@@ -8,6 +8,7 @@
     text-align: center;
     background: #111111;
     font-size: 22px;
+    margin-bottom: 10vh;
 }
 
 .li {
@@ -64,6 +65,7 @@ div {
     border-color: #0073c3;
     border-radius: 15px;
     border-width: 2px;
+    margin-bottom: 5vh;
 }
 
 footer {
@@ -83,9 +85,3 @@ pre {
     border-width: 2px;
     padding: 5px;
 }
-
-br {
-    margin-top: 5vh;
-}
-
-
