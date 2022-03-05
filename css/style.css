@@ -1,13 +1,13 @@
 .menu {
     padding-top: 3vh;
-    border-width: 2px;
+    border-width: 0.15vw;
     padding-bottom: 3vh;
     border-style: solid;
     border-color: #0073c3;
-    border-radius: 15px;
+    border-radius: 1.5vw;
     text-align: center;
     background: #111111;
-    font-size: 22px;
+    font-size: 1.75vw;
     margin-bottom: 10vh;
 }
 
@@ -48,7 +48,7 @@ a:active {
 
 body {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 16px;
+    font-size: 1.125vw;
     background: #222222;
     color: #ffffff;
     padding: 0px;
@@ -63,8 +63,8 @@ div {
     padding-left: 1vw;
     border-style: solid;
     border-color: #0073c3;
-    border-radius: 15px;
-    border-width: 2px;
+    border-radius: 1.5vw;
+    border-width: 0.15vw;
     margin-bottom: 5vh;
 }
 
@@ -73,15 +73,15 @@ footer {
     text-align: center;
     margin: 0px;
     padding: 0px;
-    font-size: 14px;
+    font-size: 1vw;
 }
 
 pre {
     background: #111111;
     border-style: solid;
     border-color: #0073c3;
-    border-radius: 15px;
-    font-size: 12px;
-    border-width: 2px;
-    padding: 5px;
+    border-radius: 0.5vw;
+    font-size: 0.9vw;
+    border-width: 0.125vw;
+    padding: 0.5vw;
 }
