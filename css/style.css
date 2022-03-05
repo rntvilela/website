@@ -78,12 +78,16 @@ footer {
 
 pre {
     background: #111111;
+    padding-right: 1vw;
+    padding-left: 1vw;
     border-style: solid;
     border-color: #0073c3;
     border-radius: 0.5vw;
+    border-width: 0.125vw;
     font-size: 0.8rem;
     border-width: 0.125vw;
-    padding: 0.5vw;
+    margin: 0.5vw;
+
 }
 
 img {
