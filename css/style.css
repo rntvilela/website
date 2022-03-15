@@ -7,7 +7,7 @@
     border-radius: 1.5vw;
     text-align: center;
     background: #111111;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 10vh;
 }
 
@@ -22,28 +22,14 @@
     padding:0px;
 }
 
-a:link {
-    background-color: transparent; 
-    text-decoration: none;
-    color: #0073c3;
-}
-
-a:visited {
+a {
     background-color: transparent; 
     text-decoration: none;
     color: #0073c3;
 }
 
 a:hover {
-    background-color: transparent; 
-    text-decoration: none;
     color: #00cd00;
-}
-
-a:active {
-    background-color: transparent; 
-    text-decoration: none;
-    color: #0073c3;
 }
 
 body {
@@ -59,13 +45,24 @@ body {
 
 div {
     background: #111111;
-    padding-right: 1vw;
-    padding-left: 1vw;
+    padding-right: 0.75vw;
+    padding-left: 0.75vw;
     border-style: solid;
     border-color: #0073c3;
     border-radius: 1.5vw;
     border-width: 0.15vw;
     margin-bottom: 5vh;
+}
+
+pre {
+    background: #111111;
+    padding: 0.5vw;
+    border-style: solid;
+    border-color: #0073c3;
+    border-radius: 0.5vw;
+    border-width: 0.125vw;
+    font-size: 0.8rem;
+    border-width: 0.125vw;
 }
 
 footer {
@@ -76,23 +73,6 @@ footer {
     font-size: 0.9rem;
 }
 
-pre {
-    background: #111111;
-    padding-right: 1vw;
-    padding-left: 1vw;
-    border-style: solid;
-    border-color: #0073c3;
-    border-radius: 0.5vw;
-    border-width: 0.125vw;
-    font-size: 0.8rem;
-    border-width: 0.125vw;
-    margin: 0.5vw;
-
-}
-
 img {
     max-width: 45rem;
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
-    margin: 0 auto;  
 }
